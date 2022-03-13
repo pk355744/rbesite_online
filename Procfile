@@ -1,1 +1,1 @@
-web: gunicorn wrappers.wsgi:applications --log-file -
+web: gunicorn wrappers.wsgi --log-file -
